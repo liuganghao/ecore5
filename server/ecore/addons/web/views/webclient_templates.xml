@@ -256,7 +256,7 @@
                     </p>
 
                     <input type="hidden" name="redirect" t-att-value="redirect"/>
-                    <div class="clearfix oe_login_buttons">
+                    <div class="clearfix oe_login_buttons" style="text-align: center;">
                         <button type="submit" class="btn btn-primary">Conectarme</button>
                     </div>
 
