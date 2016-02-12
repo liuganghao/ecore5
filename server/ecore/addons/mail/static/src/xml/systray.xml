@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+    <t t-name="mail.ComposeMessageTopButton">
+        <li title='Compose new Message' class="oe_topbar_item oe_topbar_compose_full_email">
+            <a href="#">
+                <img class="icon icons8-New-Post" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAEqElEQVRoQ+1ZXXIaRxD+ejYBpViVyQmCT2ByguATBF4MfgqcQOgElk8gdALIk0Av4BMInyDoBJFOYFwspZJSO+2amZ3VsoC0/K6i0j5Rxe5Mf9P9dX/dQ3ghD70QHHgF8tw8+eqRV4/s6ATI6Xm8o7X3uuzLA+JX3f8l8W1EhR55OUCk8xYff7nea2Bvutn5bcER/r9qmdAjDB5LiAaqucGm6+/l+960LCDbBMrPALGbM+hEVnOf92LMmpuI3vQTgU+in0c98plAn8yfPPAzbgMVGq+5124+63PeuffaAJW1leDQ5lmyG3d1CPSGgZEkNPDBHe3GqhVXvfCKgtEmoMjg7xKirmiwPGud3xYE+QMivHsuvHEuvDoznyo+MONKslO2ienx9NvnvLiftgj4y7gQLVl1j1c8w628LnreKQHNwI6/ZSbXjIZ8ojoiul6TCKeGNhj62Vxlb7xRfLib9kEo6e0Zx7LmtuKnkwiI/uh8UhICA80bxrUUqOycN4oPEn0iFDQfJMr4eDhc5OLkQNTXKtTupkPLGyI69j+4na3ETmyROT5kc6XHomA1IMFmoud1Qt4wOrLmNrYJRnS9NhHqIR+qrv792LMWELWgOjEw2sFmI5nJvd+YNya5XKrUqo0mNJJ6fG0geiOd03lo6g2PJdH7tXlj1roMUuuNFCivstZmQALeOPfeAKA/Vj1FGyqi6x0RIchE/NXPuOVVvbs5EMubrtciwlGQIjsymzt+0hiTPE5DPjDOZM3VtWLVZ2tALG+YuRVKG+lUlrYESjkIv2+lBhE1k/Jh8/Sb5JhM7lfS5jfNG4nKXO43Nam/Lh/2A8Ty5s7rgOjPINSasuaeqd8zfGD+4mfd+pMhmOAAtxpa8f1Eb3ISbQnM/w/SW1YPZ3qJhfZeeEXAeaP/83GzLFR3CkRvHmkJTM15kN5LD/p8UnIEjhgo2c7PvqvkEQgDKZ2zKKjdA7H1RkJLGSlQX1ofYgIxCMsrItaNHTMVFPdCUJEu1hbo9KcoMYEI1TLInzpzoWQaq6aVSLqLrR5WAv610gUSkSa6YYoLxPPbAg4OxjNJYVaNG73X53yqQKwIXQhC9+fTb1AZrnaoe/TwiUgkq8vSAxKZSfmLZmqa+HQJ8Fe/eqibq+hjuaF7pJr7NjUgIpA2vEyePAEk4Ma1SgI+qJImEGME4feF2SwJkKBeqcNIDYjN/+HMWRHbeUixQvpFpYzNWMqZFZQ/H1zpBBABmw6QgB/MuJE1t6DDpDcZK9GZQJWowmISQOpAVKcZXDBZjxjOsOkQTRHMBzOC7wTMDgmJOloxLwKS6CS28JI1PASSyf26UDwm4EjYdjN/2fuNlSW3050MtEpe1p8nARJZI7VbqngdmHP2U0BidSg1INE6oKbqc9L+wis6jH+WFUTR9UaaQ0EdShXIA1kXj4DUyFYSXccvnyLS5kZmc0XFsXSBxOZkT97LaMFIaqhtrhaISraYpg5EhVh06Bck3wFDjCSJIaTMC1KDOy7bAZ6uP7H517MAoo0305WTh35jPtcrL+h+JeO24in7+QCxdiv5/t+0zMwFAkpgjJkwkhCjxy5qfwC8olIZTMatBAAAAABJRU5ErkJggg==" width="20" height="20"/>
+            </a>
+        </li>
+    </t>
+
+    <t t-name="mail.chat.NotificationTopButton">
+        <li title="Notifications" style="height: 50px;">
+            <a href="#">
+                <img class="icon icons8-Appointment-Reminders" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAE2UlEQVRoQ+2aX1LbSBDGvx4Rs1sWtc4JYk4AnCDmBDEvsfMUcoJ1TrDsCcKeAPKEzYudE+CcAHMCvCeIU5aLDUHTWzPyCBPL1ow82n2JXqjCrZn+zZ+e7m9EKOu5uKsH4uEDM+2rLoh4FMut93jz67iMLqmMRnFxVxfi4ZpAtcX2GTyRcuugDJhSQILudACiVwB/jithU8EE99EAoJdg/hS3d/T/fD6lgIje9IuajbhSfY4jmmiH+1wL7mdfmDGW7XDXJ4Reur4b1KPfi1j9fQKi90x8q//fCr33671BdGevBPiUCHUwhvF29UjDfZv1QWjoGQF10K5+8jmI3kCCXvSWGScawOJRQEQ4iVvhRwvzXJPNQXSEivsE6DDLjL9BfC4lhkLQMcDzjU0DKflcCDTA1CTCnrYHRlIGR5tGss1ALqN9wXylNjYzbiRzB292hrnDpwwupg1BpJbgng7LRId4HY6s3s0wKg6yCAF8lJVqJ41QDt6IXnROwNtNYQqDiF50rZYTK4hWeOzg+5KpgdHBoR0eFmmrEEhwGR2DcaaXUzvUe2PTR3Sjkd43hHfx6/Dctb1CIKIb3aroFEs+tN4TeZ5dTBuBoKuiB6Y7SG/WDMB9FZ1kO7QKtXkM5nfRjVRIflFkgJxBRDdSkeZ3Bv8pWzsntk7a2Ine9IRAfxRp2xkk6E2HKvkrMmq5MPPlpZPN1k4j137BwBkkMyF06XGd7TwfK7JPnEHShLCExE/nZCbhdGz/J0gZqfjPGXEurB4PLW8n+o9735zwMeHAJYl02yMbhEfbwFY0vDuBiG7UIcIHH4niKrA0gXTMuVxBklOd8V62w1PbUXaxSweL8Zdshx3bd91A5ql7Kae68djsQ1U5tsID/yBGzgF/la2dJ8KbbWe2dpkqTM7L1jNiprwsgW3RTyPwuSxhF5CkBgEdoVUd2I5uIbvHUsFazLMCWagIvdcgK6PXvDaxrRjzQfpcE/fRrRakHUNiodmYv5QOnlJYKuFunrCxHkRDzK4Szcq9RtgEJMm7ktpHa1+V6uE6mNUgC8KbFhm2q428UdnU8aX31UB+mylR4kWekJcN0ps1BeRZKrz9HxCGSulnEuepkAfxLivYLIGYtZm0M7/fMFcD3ofcskF9hs3vV5SanxE5l0CM1FNEALB0q7BZKk5k3LEsg/SmEwL9Fstgd1NhubDHq140NX1GdpEBYrRYPyq5NxitNeNslUy7vNmTSDE0sj/A6u5vEMvg838+Q8kMvEyuJkhfT6yKoNlRKzkEVQrdUcvMjKpSzIlpxIQRQBMCj2MKHq+bn/1yYx2i+1zD93/0HYk+MziuM6gOcI0Y+0y8v3grzOCvAE5lJTzN6iP3QAy+z5qQ3GRCYxHK25JZ05BynhhDCBrEz6qDYgdiVgcXd3XgoS6I9kFcA6hO4FT/Zaa6OrxsIJV2TMTpbDJoDPAYTBPJPAK2xi5LOT/XsvFqbmPuTNZlyI85lFvhlOeGVxBbldDWLs/5xd/LAVn8UOBHb0q6b/cKkmpS64qvx6LJqzbmFWShABvL7erBUpRJzqhrfRfvubbxCqJWkZmV9AsHFjd6dZHcM19E+Lx7NCvXO4j6eOZpZvB0k5RV2/gHMSf1ZXTMEkqZTL5wYNyQwGmRG1ub6PUvQSHBUSN4IpkAAAAASUVORK5CYII=" width="20" height="20"/>
+                <span class="o_notification_counter" />
+            </a>
+        </li>
+    </t>
+
+</templates>
+

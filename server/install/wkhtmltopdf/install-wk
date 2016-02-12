@@ -1,0 +1,7 @@
+La instalación que me funciono, fue instalando manualmente la herramienta, los pasos son muy sencillos:
+Descargar Wkhtml desde GitHub de la url: https://github.com/germanponce/wkhtmltopdf.
+Entramos a la carpeta wkhtmltopdf con el comando cd wkhtmltopdf
+Descomprime la aplicación con el comando tar -xjvf wkhtmltopdf-0.11.0_rc1-static-amd64.tar.bz2
+Renombramos la aplicación mv wkhtmltopdf-amd64 wkhtmltopdf
+Como ultimo paso vamos a crear 2 copias, primero sudo cp wkhtmltopdf /usr/bin/ y segundo sudo cp wkhtmltopdf /usr/local/bin.
+Hacemos una prueba final wkhtmltopdf http://www.google.com Test.pdf
