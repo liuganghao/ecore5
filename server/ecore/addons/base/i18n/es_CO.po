@@ -13304,7 +13304,7 @@ msgstr "Profesor"
 #: model:ir.module.category,name:base.module_category_project_management
 #: model:ir.ui.menu,name:base.menu_main_pm
 msgid "Project"
-msgstr "Proyecto"
+msgstr "Proyectos"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_project_and_timesheet_management
