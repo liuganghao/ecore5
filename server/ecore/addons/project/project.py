@@ -196,7 +196,7 @@ class project(osv.osv):
     _defaults = {
         'active': True,
         'type': 'contract',
-        'label_tasks': 'Tasks',
+        'label_tasks': 'Actividades',
         'state': 'open',
         'sequence': 10,
         'user_id': lambda self,cr,uid,ctx: uid,
