@@ -54,17 +54,17 @@ Contributors
 Maintainer
 ----------
 
-.. image:: https://odoo-community.org/logo.png
-   :alt: Odoo Community Association
-   :target: https://odoo-community.org
+.. image:: https://ecore-community.org/logo.png
+   :alt: eCore Community Association
+   :target: https://ecore-community.org
 
 This module is maintained by the OCA.
 
-OCA, or the Odoo Community Association, is a nonprofit organization whose
-mission is to support the collaborative development of Odoo features and
+OCA, or the eCore Community Association, is a nonprofit organization whose
+mission is to support the collaborative development of eCore features and
 promote its widespread use.
 
-To contribute to this module, please visit http://odoo-community.org.
+To contribute to this module, please visit http://ecore-community.org.
 
 Changelog
 ---------

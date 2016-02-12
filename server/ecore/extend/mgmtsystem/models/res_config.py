@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 ##############################################################################
 #
-#    OpenERP, Open Source Business Applications
-#    Copyright (C) 2004-2012 OpenERP S.A. (<http://openerp.com>).
+#    eCore, Open Source Business Applications
+#    Copyright (C) 2004-2012 eCore S.A. (<http://ecore.com>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -19,7 +19,7 @@
 #
 ##############################################################################
 
-from openerp import models, fields
+from ecore import models, fields
 
 
 class MgmtSystemConfigSettings(models.TransientModel):

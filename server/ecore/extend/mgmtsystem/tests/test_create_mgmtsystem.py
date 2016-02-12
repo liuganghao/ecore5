@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 ##############################################################################
 #
-#    OpenERP, Open Source Management Solution
+#    eCore, Open Source Management Solution
 #    Copyright (C) 2012 Savoir-faire Linux (<http://www.savoirfairelinux.com>).
 #
 #    This program is free software: you can redistribute it and/or modify
@@ -19,7 +19,7 @@
 #
 ##############################################################################
 
-from openerp.tests import common
+from ecore.tests import common
 
 
 class TestModelAction(common.TransactionCase):

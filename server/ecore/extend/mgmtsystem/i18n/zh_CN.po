@@ -1,11 +1,11 @@
-# Chinese (Simplified) translation for openerp-mgmtsystem
+# Chinese (Simplified) translation for ecore-mgmtsystem
 # Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
-# This file is distributed under the same license as the openerp-mgmtsystem package.
+# This file is distributed under the same license as the ecore-mgmtsystem package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: openerp-mgmtsystem\n"
+"Project-Id-Version: ecore-mgmtsystem\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2010-12-02 23:46+0000\n"
 "PO-Revision-Date: 2012-10-10 00:54+0000\n"

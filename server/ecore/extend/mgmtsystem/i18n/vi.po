@@ -1,11 +1,11 @@
-# Vietnamese translation for openerp-mgmtsystem
+# Vietnamese translation for ecore-mgmtsystem
 # Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
-# This file is distributed under the same license as the openerp-mgmtsystem package.
+# This file is distributed under the same license as the ecore-mgmtsystem package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: openerp-mgmtsystem\n"
+"Project-Id-Version: ecore-mgmtsystem\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2010-12-02 23:46+0000\n"
 "PO-Revision-Date: 2014-03-04 11:44+0000\n"
