@@ -16992,7 +16992,7 @@ msgstr "Le sugerimos recargar la pestaña del menú para ver los nuevos menús (
 #: model:ir.module.module,shortdesc:base.module_web
 #: model:ir.ui.view,arch_db:base.report_irmodulereference
 msgid "Web"
-msgstr "Web"
+msgstr "eCore Web"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_web_calendar

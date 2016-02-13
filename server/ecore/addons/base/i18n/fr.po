@@ -17001,7 +17001,7 @@ msgstr "Nous suggérons de recharger l'onglet 'menu' pour faire apparaître les 
 #: model:ir.module.module,shortdesc:base.module_web
 #: model:ir.ui.view,arch_db:base.report_irmodulereference
 msgid "Web"
-msgstr "Web"
+msgstr "eCore Web"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_web_calendar
