@@ -10,7 +10,7 @@ animation.registry.follow_alias = animation.Class.extend({
     start: function (editable_mode) {
         var self = this;
         this.is_user = false;
-        ajax.jsonRpc('/groups/is_member', 'call', {
+        ajax.jsonRpc('/groups/message_is_follower', 'call', {
             model: this.$target.data('object'),
             channel_id: this.$target.data('id'),
             get_alias_info: true,
@@ -18,7 +18,7 @@ animation.registry.follow_alias = animation.Class.extend({
             self.is_user = data.is_user;
             self.email = data.email;
             self.$target.find('.js_mg_link').attr('href', '/groups/' + self.$target.data('id'));
-            self.toggle_subscription(data.is_member, data.email);
+            self.toggle_subscription(data.message_is_follower, data.email);
             self.$target.removeClass("hidden");
         });
 

@@ -49,8 +49,8 @@ class MailGroup(http.Controller):
         values = {'groups': groups, 'group_data': group_data}
         return request.website.render('website_mail_channel.mail_channels', values)
 
-    @http.route(["/groups/is_member"], type='json', auth="public", website=True)
-    def is_member(self, channel_id=0, **kw):
+    @http.route(["/groups/message_is_follower"], type='json', auth="public", website=True)
+    def message_is_follower(self, channel_id=0, **kw):
         """ Determine if the current user is member of the given channel_id
             :param channel_id : the channel_id to check
         """
@@ -67,13 +67,13 @@ class MailGroup(http.Controller):
         values = {
             'is_user': current_user_id != public_id,
             'email': partner and partner.email or "",
-            'is_member': False,
+            'message_is_follower': False,
             'alias_name': False,
         }
         # check if the current partner is member or not
         channel = request.env['mail.channel'].browse(int(channel_id))
         if channel.exists() and partner is not None:
-            values['is_member'] = bool(partner in channel.sudo().channel_partner_ids)
+            values['message_is_follower'] = bool(partner in channel.sudo().channel_partner_ids)
         return values
 
     @http.route(["/groups/subscription"], type='json', auth="public", website=True)
