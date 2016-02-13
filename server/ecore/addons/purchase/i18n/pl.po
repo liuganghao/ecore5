@@ -802,7 +802,7 @@ msgid "Invoices and Incoming Shipments"
 msgstr "Faktury i przyjęcia zewnętrzne"
 
 #. module: purchase
-#: model:ir.model.fields,field_description:purchase.field_purchase_order_is_member
+#: model:ir.model.fields,field_description:purchase.field_purchase_order_message_is_follower
 msgid "Is Follower"
 msgstr "Jest obserwatorem"
 

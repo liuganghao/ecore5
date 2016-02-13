@@ -2865,8 +2865,8 @@ msgid "Inventory of"
 msgstr "inventário de"
 
 #. module: stock
-#: model:ir.model.fields,field_description:stock.field_stock_picking_is_member
-#: model:ir.model.fields,field_description:stock.field_stock_production_lot_is_member
+#: model:ir.model.fields,field_description:stock.field_stock_picking_message_is_follower
+#: model:ir.model.fields,field_description:stock.field_stock_production_lot_message_is_follower
 msgid "Is Follower"
 msgstr "É um seguidor"
 

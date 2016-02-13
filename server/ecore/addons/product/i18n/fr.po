@@ -1491,8 +1491,8 @@ msgid "Inventory"
 msgstr "Inventaire"
 
 #. module: product
-#: model:ir.model.fields,field_description:product.field_product_product_is_member
-#: model:ir.model.fields,field_description:product.field_product_template_is_member
+#: model:ir.model.fields,field_description:product.field_product_product_message_is_follower
+#: model:ir.model.fields,field_description:product.field_product_template_message_is_follower
 msgid "Is Follower"
 msgstr "Est un abonné"
 

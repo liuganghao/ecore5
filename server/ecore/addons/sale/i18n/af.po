@@ -874,7 +874,7 @@ msgid "Invoicing/Progression Ratio"
 msgstr ""
 
 #. module: sale
-#: model:ir.model.fields,field_description:sale.field_sale_order_is_member
+#: model:ir.model.fields,field_description:sale.field_sale_order_message_is_follower
 msgid "Is Follower"
 msgstr "Is Volgeling"
 

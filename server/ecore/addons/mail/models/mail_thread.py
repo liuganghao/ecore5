@@ -82,7 +82,7 @@ class MailThread(models.AbstractModel):
     _mail_post_access = 'write'  # access required on the document to post on it
     _mail_mass_mailing = False  # enable mass mailing on this model
 
-    is_member = fields.Boolean(
+    message_is_follower = fields.Boolean(
         'Is Follower', compute='_compute_is_follower', search='_search_is_follower')
     message_follower_ids = fields.One2many(
         'mail.followers', 'res_id', string='Followers',
@@ -120,7 +120,7 @@ class MailThread(models.AbstractModel):
     def _search_follower_partners(self, operator, operand):
         """Search function for message_follower_ids
 
-        Do not use with operator 'not in'. Use instead is_members
+        Do not use with operator 'not in'. Use instead message_is_followers
         """
         # TOFIX make it work with not in
         assert operator != "not in", "Do not search message_follower_ids with 'not in'"
@@ -133,7 +133,7 @@ class MailThread(models.AbstractModel):
     def _search_follower_channels(self, operator, operand):
         """Search function for message_follower_ids
 
-        Do not use with operator 'not in'. Use instead is_members
+        Do not use with operator 'not in'. Use instead message_is_followers
         """
         # TOFIX make it work with not in
         assert operator != "not in", "Do not search message_follower_ids with 'not in'"
@@ -152,7 +152,7 @@ class MailThread(models.AbstractModel):
             ])
         following_ids = followers.mapped('res_id')
         for record in self:
-            record.is_member = record.id in following_ids
+            record.message_is_follower = record.id in following_ids
 
     @api.model
     def _search_is_follower(self, operator, operand):
@@ -160,7 +160,7 @@ class MailThread(models.AbstractModel):
             ('res_model', '=', self._name),
             ('partner_id', '=', self.env.user.partner_id.id),
             ])
-        # Cases ('is_member', '=', True) or  ('is_member', '!=', False)
+        # Cases ('message_is_follower', '=', True) or  ('message_is_follower', '!=', False)
         if (operator == '=' and operand) or (operator == '!=' and not operand):
             return [('id', 'in', followers.mapped('res_id'))]
         else:

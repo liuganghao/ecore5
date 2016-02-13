@@ -355,7 +355,7 @@ msgid "If checked, new messages require your attention."
 msgstr "Ako je označeno, nove poruke zahtjevaju pažnju"
 
 #. module: purchase_requisition
-#: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_is_member
+#: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_message_is_follower
 msgid "Is Follower"
 msgstr "Je pratioc"
 

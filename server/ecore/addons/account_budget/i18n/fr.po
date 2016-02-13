@@ -357,7 +357,7 @@ msgid "If checked, new messages require your attention."
 msgstr "Si elle est cochée, de nouveaux messages requièrent votre attention."
 
 #. module: account_budget
-#: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_is_member
+#: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_message_is_follower
 msgid "Is Follower"
 msgstr "Est un abonné"
 

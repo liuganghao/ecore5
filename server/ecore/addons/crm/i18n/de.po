@@ -1928,7 +1928,7 @@ msgid "Is Company"
 msgstr "Nach 'Ist Unternehmen' gruppieren"
 
 #. module: crm
-#: model:ir.model.fields,field_description:crm.field_crm_lead_is_member
+#: model:ir.model.fields,field_description:crm.field_crm_lead_message_is_follower
 msgid "Is Follower"
 msgstr "Ist Beobachter"
 

@@ -385,7 +385,7 @@ msgid "In Progress"
 msgstr "Σε Εξέλιξη"
 
 #. module: crm_claim
-#: model:ir.model.fields,field_description:crm_claim.field_crm_claim_is_member
+#: model:ir.model.fields,field_description:crm_claim.field_crm_claim_message_is_follower
 msgid "Is Follower"
 msgstr "Είναι Ακόλουθος"
 

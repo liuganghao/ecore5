@@ -274,7 +274,7 @@ msgid "If unchecked, it will allow you to hide the rule without removing it."
 msgstr "선택을 해제하면 삭제하지 않고 규칙을 숨길 수 있습니다."
 
 #. module: procurement
-#: model:ir.model.fields,field_description:procurement.field_procurement_order_is_member
+#: model:ir.model.fields,field_description:procurement.field_procurement_order_message_is_follower
 msgid "Is Follower"
 msgstr ""
 

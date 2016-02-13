@@ -244,7 +244,7 @@ msgid "Internal Notes"
 msgstr "Iwenniten igensanen"
 
 #. module: account_voucher
-#: model:ir.model.fields,field_description:account_voucher.field_account_voucher_is_member
+#: model:ir.model.fields,field_description:account_voucher.field_account_voucher_message_is_follower
 msgid "Is Follower"
 msgstr ""
 

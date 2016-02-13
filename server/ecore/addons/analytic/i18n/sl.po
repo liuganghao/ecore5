@@ -276,7 +276,7 @@ msgid ""
 msgstr "Prodajni nalogi in projekti so v eCore implementirani preko\n                analitičnih kontov. Sledite lahko stroškom in prihodkom za potrebe analize\n                marž."
 
 #. module: analytic
-#: model:ir.model.fields,field_description:analytic.field_account_analytic_account_is_member
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_account_message_is_follower
 msgid "Is Follower"
 msgstr "Je sledilec"
 

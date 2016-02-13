@@ -393,7 +393,7 @@ msgid "If checked, new messages require your attention."
 msgstr "Si coché, de nouveaux messages demandent votre attention."
 
 #. module: hr_expense
-#: model:ir.model.fields,field_description:hr_expense.field_hr_expense_is_member
+#: model:ir.model.fields,field_description:hr_expense.field_hr_expense_message_is_follower
 msgid "Is Follower"
 msgstr "Est un abonné"
 

@@ -899,7 +899,7 @@ msgid "Invitations sent"
 msgstr ""
 
 #. module: survey
-#: model:ir.model.fields,field_description:survey.field_survey_survey_is_member
+#: model:ir.model.fields,field_description:survey.field_survey_survey_message_is_follower
 msgid "Is Follower"
 msgstr "Je pratitelj"
 

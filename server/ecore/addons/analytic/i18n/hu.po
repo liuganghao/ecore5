@@ -276,7 +276,7 @@ msgid ""
 msgstr "eCore rendszerben, vásárlói megrendelések és projekt témák beleépítettek az\n                gyűjtő/elemző számlák használatába. Nyomon követheti a költségeit és bevételeit a fedezet könnyű\n                elemzéséhez."
 
 #. module: analytic
-#: model:ir.model.fields,field_description:analytic.field_account_analytic_account_is_member
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_account_message_is_follower
 msgid "Is Follower"
 msgstr "Ő egy követő"
 

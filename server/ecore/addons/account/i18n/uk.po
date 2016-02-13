@@ -4739,8 +4739,8 @@ msgid "Invoicing & Payments"
 msgstr "Рахунки та оплата"
 
 #. module: account
-#: model:ir.model.fields,field_description:account.field_account_bank_statement_is_member
-#: model:ir.model.fields,field_description:account.field_account_invoice_is_member
+#: model:ir.model.fields,field_description:account.field_account_bank_statement_message_is_follower
+#: model:ir.model.fields,field_description:account.field_account_invoice_message_is_follower
 msgid "Is Follower"
 msgstr "Стежить"
 

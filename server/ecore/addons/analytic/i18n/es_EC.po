@@ -276,7 +276,7 @@ msgid ""
 msgstr "En eCore, ordenes de ventas y proyectos son implementados usando\ncuentas analíticas. Usted puede analizar costos, ingresos y márgenes\nfacilmente."
 
 #. module: analytic
-#: model:ir.model.fields,field_description:analytic.field_account_analytic_account_is_member
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_account_message_is_follower
 msgid "Is Follower"
 msgstr "Es seguidor"
 

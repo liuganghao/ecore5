@@ -134,7 +134,7 @@ msgid "If checked, new messages require your attention."
 msgstr "Якщо відмічено, то нові повідомлення будуть потребувати вашої уваги."
 
 #. module: note
-#: model:ir.model.fields,field_description:note.field_note_note_is_member
+#: model:ir.model.fields,field_description:note.field_note_note_message_is_follower
 msgid "Is Follower"
 msgstr "Стежить"
 

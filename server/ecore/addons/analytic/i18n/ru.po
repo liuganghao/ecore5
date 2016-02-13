@@ -276,7 +276,7 @@ msgid ""
 msgstr "В eCore, заказы и проекты реализованы с использованием\nаналитических счетов. Вы можете следить за расходами и\nдоходами, чтобы легко анализировать остатки"
 
 #. module: analytic
-#: model:ir.model.fields,field_description:analytic.field_account_analytic_account_is_member
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_account_message_is_follower
 msgid "Is Follower"
 msgstr "Подписчик"
 
