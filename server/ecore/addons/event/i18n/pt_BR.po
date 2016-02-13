@@ -1088,8 +1088,8 @@ msgid "Introduction, CRM, Sales Management"
 msgstr "Introdução, CRM, Gerenciamento de Vendas"
 
 #. module: event
-#: model:ir.model.fields,field_description:event.field_event_event_message_is_follower
-#: model:ir.model.fields,field_description:event.field_event_registration_message_is_follower
+#: model:ir.model.fields,field_description:event.field_event_event_is_member
+#: model:ir.model.fields,field_description:event.field_event_registration_is_member
 msgid "Is Follower"
 msgstr "É um seguidor"
 

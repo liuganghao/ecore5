@@ -1591,10 +1591,10 @@ msgid "Invited people only"
 msgstr ""
 
 #. module: mail
-#: model:ir.model.fields,field_description:mail.field_mail_channel_message_is_follower
-#: model:ir.model.fields,field_description:mail.field_mail_thread_message_is_follower
-#: model:ir.model.fields,field_description:mail.field_res_partner_message_is_follower
-#: model:ir.model.fields,field_description:mail.field_res_users_message_is_follower
+#: model:ir.model.fields,field_description:mail.field_mail_channel_is_member
+#: model:ir.model.fields,field_description:mail.field_mail_thread_is_member
+#: model:ir.model.fields,field_description:mail.field_res_partner_is_member
+#: model:ir.model.fields,field_description:mail.field_res_users_is_member
 msgid "Is Follower"
 msgstr ""
 

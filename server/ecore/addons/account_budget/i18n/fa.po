@@ -354,7 +354,7 @@ msgid "If checked, new messages require your attention."
 msgstr "اگر این گزینه را انتخاب کنید، پیام‌های جدید به توجه شما نیاز خواهند داشت."
 
 #. module: account_budget
-#: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_message_is_follower
+#: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_is_member
 msgid "Is Follower"
 msgstr "دنبال می کند"
 

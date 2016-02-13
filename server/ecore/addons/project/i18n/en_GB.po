@@ -1942,8 +1942,8 @@ msgid ""
 msgstr ""
 
 #. module: project
-#: model:ir.model.fields,field_description:project.field_project_project_message_is_follower
-#: model:ir.model.fields,field_description:project.field_project_task_message_is_follower
+#: model:ir.model.fields,field_description:project.field_project_project_is_member
+#: model:ir.model.fields,field_description:project.field_project_task_is_member
 msgid "Is Follower"
 msgstr "Is Follower"
 

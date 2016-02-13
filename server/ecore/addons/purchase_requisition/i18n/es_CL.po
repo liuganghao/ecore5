@@ -355,7 +355,7 @@ msgid "If checked, new messages require your attention."
 msgstr "Si está marcado, hay nuevos mensajes que requieren su atención."
 
 #. module: purchase_requisition
-#: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_message_is_follower
+#: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_is_member
 msgid "Is Follower"
 msgstr "Es un seguidor"
 

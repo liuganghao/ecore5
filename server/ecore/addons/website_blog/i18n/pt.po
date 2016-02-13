@@ -596,8 +596,8 @@ msgid "Integrating your CMS and E-Commerce"
 msgstr "Integrando seu CMS e Comércio Eletrônico"
 
 #. module: website_blog
-#: model:ir.model.fields,field_description:website_blog.field_blog_blog_message_is_follower
-#: model:ir.model.fields,field_description:website_blog.field_blog_post_message_is_follower
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog_is_member
+#: model:ir.model.fields,field_description:website_blog.field_blog_post_is_member
 msgid "Is Follower"
 msgstr "É um Seguidor"
 

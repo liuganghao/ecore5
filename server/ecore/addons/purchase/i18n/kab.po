@@ -800,7 +800,7 @@ msgid "Invoices and Incoming Shipments"
 msgstr "Tifaturin d irmasen n ifarisen"
 
 #. module: purchase
-#: model:ir.model.fields,field_description:purchase.field_purchase_order_message_is_follower
+#: model:ir.model.fields,field_description:purchase.field_purchase_order_is_member
 msgid "Is Follower"
 msgstr ""
 

@@ -243,7 +243,7 @@ msgid "Information"
 msgstr "Informații"
 
 #. module: hr_contract
-#: model:ir.model.fields,field_description:hr_contract.field_hr_contract_message_is_follower
+#: model:ir.model.fields,field_description:hr_contract.field_hr_contract_is_member
 msgid "Is Follower"
 msgstr ""
 

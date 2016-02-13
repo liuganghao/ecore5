@@ -390,7 +390,7 @@ msgid "If checked, new messages require your attention."
 msgstr "Indien aangevinkt vragen nieuwe berichten uw aandacht."
 
 #. module: hr_expense
-#: model:ir.model.fields,field_description:hr_expense.field_hr_expense_message_is_follower
+#: model:ir.model.fields,field_description:hr_expense.field_hr_expense_is_member
 msgid "Is Follower"
 msgstr "Is een volger"
 

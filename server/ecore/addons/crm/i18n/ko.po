@@ -1926,7 +1926,7 @@ msgid "Is Company"
 msgstr "회사입니까?"
 
 #. module: crm
-#: model:ir.model.fields,field_description:crm.field_crm_lead_message_is_follower
+#: model:ir.model.fields,field_description:crm.field_crm_lead_is_member
 msgid "Is Follower"
 msgstr ""
 

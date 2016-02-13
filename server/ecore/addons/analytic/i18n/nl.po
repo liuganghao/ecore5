@@ -277,7 +277,7 @@ msgid ""
 msgstr "In eCore worden verkopen en projecten geïmplementeerd door gebruik\nte maken van kostenplaatsen. U kan kosten en opbrengsten eenvoudig\nvergelijken om uw marges te analyseren."
 
 #. module: analytic
-#: model:ir.model.fields,field_description:analytic.field_account_analytic_account_message_is_follower
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_account_is_member
 msgid "Is Follower"
 msgstr "Is een volger"
 

@@ -133,7 +133,7 @@ msgid "If checked, new messages require your attention."
 msgstr ""
 
 #. module: note
-#: model:ir.model.fields,field_description:note.field_note_note_message_is_follower
+#: model:ir.model.fields,field_description:note.field_note_note_is_member
 msgid "Is Follower"
 msgstr ""
 

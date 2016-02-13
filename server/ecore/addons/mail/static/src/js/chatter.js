@@ -62,7 +62,7 @@ var Followers = form_common.AbstractField.extend({
 
     reinit: function () {
         this.data_subtype = {};
-        this.message_is_follower = undefined;
+        this.is_member = undefined;
         this.display_buttons();
     },
 
@@ -225,8 +225,8 @@ var Followers = form_common.AbstractField.extend({
         var $followers_list = this.$('.o_followers_list').empty();
         this.$('.o_followers_count').html(this._format_followers(this.followers.length));
         var user_follower = _.filter(this.followers, function (rec) { return rec.is_uid;});
-        this.message_is_follower = user_follower.length >= 1;
-        this.follower_id = this.message_is_follower ? user_follower[0].id : undefined;
+        this.is_member = user_follower.length >= 1;
+        this.follower_id = this.is_member ? user_follower[0].id : undefined;
 
         // render the dropdown content
         $(qweb.render('mail.Followers.add_more', {'widget': self})).appendTo($followers_list);
@@ -248,7 +248,7 @@ var Followers = form_common.AbstractField.extend({
     },
 
     display_buttons: function () {
-        if (this.message_is_follower) {
+        if (this.is_member) {
             this.$('button.o_followers_follow_button').removeClass('o_followers_notfollow').addClass('o_followers_following');
         } else {
             this.$('button.o_followers_follow_button').removeClass('o_followers_following').addClass('o_followers_notfollow');
@@ -268,7 +268,7 @@ var Followers = form_common.AbstractField.extend({
             dialog = true;
         } else {
             this.$('.o_subtypes_list ul').empty();
-            if (!this.message_is_follower) {
+            if (!this.is_member) {
                 this.$('.o_subtypes_list > .dropdown-toggle').attr('disabled', true);
                 return;
             } else {

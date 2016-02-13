@@ -904,9 +904,9 @@ msgid "Internal Reference"
 msgstr "Interne Referenz"
 
 #. module: mrp
-#: model:ir.model.fields,field_description:mrp.field_mrp_bom_message_is_follower
-#: model:ir.model.fields,field_description:mrp.field_mrp_production_message_is_follower
-#: model:ir.model.fields,field_description:mrp.field_mrp_production_workcenter_line_message_is_follower
+#: model:ir.model.fields,field_description:mrp.field_mrp_bom_is_member
+#: model:ir.model.fields,field_description:mrp.field_mrp_production_is_member
+#: model:ir.model.fields,field_description:mrp.field_mrp_production_workcenter_line_is_member
 msgid "Is Follower"
 msgstr "Ist Beobachter"
 

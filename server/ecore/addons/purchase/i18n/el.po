@@ -801,7 +801,7 @@ msgid "Invoices and Incoming Shipments"
 msgstr "Τιμολόγια και Εισερχόμενες Αποστολές"
 
 #. module: purchase
-#: model:ir.model.fields,field_description:purchase.field_purchase_order_message_is_follower
+#: model:ir.model.fields,field_description:purchase.field_purchase_order_is_member
 msgid "Is Follower"
 msgstr "Είναι Ακόλουθος"
 

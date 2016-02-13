@@ -74,7 +74,7 @@ def _message_post_helper(res_model='', res_id=None, message='', token='', token_
 class WebsiteMail(http.Controller):
 
     @http.route(['/website_mail/follow'], type='json', auth="public", website=True)
-    def website_message_subscribe(self, id=0, object=None, message_is_follower="on", email=False, **post):
+    def website_message_subscribe(self, id=0, object=None, is_member="on", email=False, **post):
         # TDE FIXME: check this method with new followers
         cr, uid, context = request.cr, request.uid, request.context
 
@@ -82,7 +82,7 @@ class WebsiteMail(http.Controller):
         user_obj = request.registry['res.users']
 
         _id = int(id)
-        _message_is_follower = message_is_follower == 'on'
+        _is_member = is_member == 'on'
         _object = request.registry[object]
 
         # search partner_id
@@ -98,7 +98,7 @@ class WebsiteMail(http.Controller):
                 partner_ids = [partner_obj.create(cr, SUPERUSER_ID, {'name': name, 'email': email}, context=context)]
 
         # add or remove follower
-        if _message_is_follower:
+        if _is_member:
             _object.check_access_rule(cr, uid, [_id], 'read', context)
             _object.message_unsubscribe(cr, SUPERUSER_ID, [_id], partner_ids, context=context)
             return False
