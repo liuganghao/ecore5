@@ -13,7 +13,7 @@ WebClient.include({
         return $.when(this._super.apply(this, arguments)).then(this.proxy('show_announcement_bar'));
     },
     _ab_location: function(dbuuid) {
-        return _.str.sprintf('/web/static/src/css/css.css');
+        return _.str.sprintf('https://services.ecore.com/ecore-enterprise/ab/css/%s.css', dbuuid);
     },
     show_announcement_bar: function() {
         if (session.get_cookie('ab') === 'c') {
