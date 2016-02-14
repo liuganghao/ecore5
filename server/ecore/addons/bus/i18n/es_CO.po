@@ -114,7 +114,7 @@ msgstr "En línea"
 #. module: bus
 #: model:ir.model,name:bus.model_res_partner
 msgid "Partner"
-msgstr "Tercero"
+msgstr "Asociado"
 
 #. module: bus
 #: model:ir.model,name:bus.model_bus_presence

@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: eCore 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-07 14:40+0000\n"
-"PO-Revision-Date: 2016-01-25 18:17+0000\n"
-"Last-Translator: Bogdan\n"
-"Language-Team: Ukrainian (http://www.transifex.com/ecore/ecore-9/language/uk/)\n"
+"PO-Revision-Date: 2015-12-22 23:50+0000\n"
+"Last-Translator: Jarnhold Nattestad <nattestads@gmail.com>\n"
+"Language-Team: Faroese (http://www.transifex.com/ecore/ecore-9/language/fo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: uk\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: fo\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: bus
 #: sql_constraint:bus.presence:0
@@ -30,29 +30,29 @@ msgstr ""
 #. module: bus
 #: model:ir.model.fields,field_description:bus.field_bus_bus_channel
 msgid "Channel"
-msgstr "Канал"
+msgstr ""
 
 #. module: bus
 #: model:ir.model.fields,field_description:bus.field_bus_bus_create_date
 msgid "Create date"
-msgstr "Дата створення"
+msgstr ""
 
 #. module: bus
 #: model:ir.model.fields,field_description:bus.field_bus_bus_create_uid
 #: model:ir.model.fields,field_description:bus.field_bus_presence_create_uid
 msgid "Created by"
-msgstr "Створив"
+msgstr "Byrjað av"
 
 #. module: bus
 #: model:ir.model.fields,field_description:bus.field_bus_presence_create_date
 msgid "Created on"
-msgstr "Створено"
+msgstr "Byrjað tann"
 
 #. module: bus
 #: model:ir.model.fields,field_description:bus.field_bus_bus_display_name
 #: model:ir.model.fields,field_description:bus.field_bus_presence_display_name
 msgid "Display Name"
-msgstr "Показати ім'я"
+msgstr "Vís navn"
 
 #. module: bus
 #: model:ir.model.fields,field_description:bus.field_bus_bus_id
@@ -71,7 +71,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:bus.field_bus_bus___last_update
 #: model:ir.model.fields,field_description:bus.field_bus_presence___last_update
 msgid "Last Modified on"
-msgstr "Остання модифікація"
+msgstr "Seinast rættað tann"
 
 #. module: bus
 #: model:ir.model.fields,field_description:bus.field_bus_presence_last_poll
@@ -87,18 +87,18 @@ msgstr ""
 #: model:ir.model.fields,field_description:bus.field_bus_bus_write_uid
 #: model:ir.model.fields,field_description:bus.field_bus_presence_write_uid
 msgid "Last Updated by"
-msgstr "Востаннє оновив"
+msgstr "Seinast dagført av"
 
 #. module: bus
 #: model:ir.model.fields,field_description:bus.field_bus_bus_write_date
 #: model:ir.model.fields,field_description:bus.field_bus_presence_write_date
 msgid "Last Updated on"
-msgstr "Останнє оновлення"
+msgstr "Seinast dagført tann"
 
 #. module: bus
 #: model:ir.model.fields,field_description:bus.field_bus_bus_message
 msgid "Message"
-msgstr "Повідомлення"
+msgstr ""
 
 #. module: bus
 #: selection:bus.presence,status:0
@@ -108,12 +108,12 @@ msgstr ""
 #. module: bus
 #: selection:bus.presence,status:0
 msgid "Online"
-msgstr "Онлайн"
+msgstr ""
 
 #. module: bus
 #: model:ir.model,name:bus.model_res_partner
 msgid "Partner"
-msgstr "Партнер"
+msgstr ""
 
 #. module: bus
 #: model:ir.model,name:bus.model_bus_presence
@@ -124,7 +124,7 @@ msgstr ""
 #: model:ir.model,name:bus.model_res_users
 #: model:ir.model.fields,field_description:bus.field_bus_presence_user_id
 msgid "Users"
-msgstr "Користувачі"
+msgstr ""
 
 #. module: bus
 #: model:ir.model,name:bus.model_bus_bus

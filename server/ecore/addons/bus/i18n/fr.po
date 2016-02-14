@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Maxime Chambreuil <maxime.chambreuil@gmail.com>, 2015
-# Symons Xavier <xsy@ecore.cool>, 2015
+# Symons Xavier <xsy@ecore.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: eCore 9.0\n"
