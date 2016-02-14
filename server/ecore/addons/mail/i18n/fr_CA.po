@@ -72,7 +72,7 @@ msgid ""
 "                </a>\n"
 "                % endif\n"
 "                <strong>using</strong>\n"
-"                <a href=\"www.ecore.cool\" style=\"text-decoration:none; color: #a24689;\"><strong>eCore</strong></a>\n"
+"                <a href=\"www.ecore.com\" style=\"text-decoration:none; color: #a24689;\"><strong>eCore</strong></a>\n"
 "                % endif\n"
 "            </td>\n"
 "        </tr>\n"
@@ -2808,7 +2808,7 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_res_users_alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.ecore.cool>"
+"<jobs@example.ecore.com>"
 msgstr ""
 
 #. module: mail
@@ -3213,7 +3213,7 @@ msgstr ""
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_general_configuration_mail_alias_domain
-msgid "mycompany.ecore.cool"
+msgid "mycompany.ecore.com"
 msgstr ""
 
 #. module: mail
