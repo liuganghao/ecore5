@@ -1603,7 +1603,7 @@ msgid "Is Notification"
 msgstr ""
 
 #. module: mail
-#: model:ir.model.fields,field_description:mail.field_mail_channel_message_is_follower
+#: model:ir.model.fields,field_description:mail.field_mail_channel_is_member
 msgid "Is a member"
 msgstr ""
 
