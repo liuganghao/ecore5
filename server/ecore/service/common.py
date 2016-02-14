@@ -39,7 +39,7 @@ def exp_about(extended=False):
     @return string if extended is False else tuple
     """
 
-    info = _('See http://ecore.cool')
+    info = _('See http://ecore.com')
 
     if extended:
         return info, ecore.release.version

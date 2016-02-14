@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Copyright: 2014 - eCore S.A. <http://ecore.cool>
+# Copyright: 2014 - eCore S.A. <http://ecore.com>
 import types
 
 def post_mortem(config, info):

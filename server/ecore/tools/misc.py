@@ -7,6 +7,7 @@ Miscellaneous tools used by eCore.
 """
 
 from functools import wraps
+import cPickle
 import cProfile
 from contextlib import contextmanager
 import subprocess
@@ -19,6 +20,7 @@ import threading
 import time
 import werkzeug.utils
 import zipfile
+from cStringIO import StringIO
 from collections import defaultdict, Hashable, Iterable, Mapping, OrderedDict
 from itertools import islice, izip, groupby
 from lxml import etree
@@ -810,7 +812,7 @@ class upload_data_thread(threading.Thread):
         try:
             import urllib
             args = urllib.urlencode(self.args)
-            fp = urllib.urlopen('http://www.ecore.cool/scripts/survey.php', args)
+            fp = urllib.urlopen('http://www.ecore.com/scripts/survey.php', args)
             fp.read()
             fp.close()
         except Exception:
@@ -986,7 +988,6 @@ def stripped_sys_argv(*strip_args):
             or (i >= 1 and (args[i - 1] in strip_args) and takes_value[args[i - 1]])
 
     return [x for i, x in enumerate(args) if not strip(args, i)]
-
 
 class ConstantMapping(Mapping):
     """
@@ -1169,3 +1170,24 @@ def _consteq(str1, str2):
     return len(str1) == len(str2) and sum(ord(x)^ord(y) for x, y in zip(str1, str2)) == 0
 
 consteq = getattr(passlib.utils, 'consteq', _consteq)
+
+class Pickle(object):
+    @classmethod
+    def load(cls, stream, errors=False):
+        unpickler = cPickle.Unpickler(stream)
+        # pickle builtins: str/unicode, int/long, float, bool, tuple, list, dict, None
+        unpickler.find_global = None
+        try:
+            return unpickler.load()
+        except Exception:
+            _logger.warning('Failed unpickling data, returning default: %r', errors, exc_info=True)
+            return errors
+
+    @classmethod
+    def loads(cls, text):
+        return cls.load(StringIO(text))
+
+    dumps = cPickle.dumps
+    dump = cPickle.dump
+
+pickle = Pickle

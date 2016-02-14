@@ -4,7 +4,7 @@
 
     'summary': """
         Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.ecore.cool""",
+        subtitle on modules listing or apps.ecore.com""",
 
     'description': """
         Long description of module's purpose
@@ -25,11 +25,11 @@
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
-        'views.xml',
-        'templates.xml',
+        'views/views.xml',
+        'views/templates.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
-        'demo.xml',
+        'demo/demo.xml',
     ],
 }

@@ -29,11 +29,11 @@ License :: OSI Approved :: GNU Lesser General Public License v3
 
 Programming Language :: Python
 """
-url = 'http://www.ecore.cool'
+url = 'https://www.ecore.com'
 author = 'eCore S.A.'
-author_email = 'info@ecore.cool'
+author_email = 'info@ecore.com'
 license = 'LGPL-3'
 
 nt_service_name = "ecore-server-" + series
-version += '-20151207' 
-# hash = '8e7417f'
+version += '-20160213' 
+# hash = '1f081be'

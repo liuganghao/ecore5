@@ -69,7 +69,7 @@ class configmanager(object):
         self.options = {
             'admin_passwd': 'admin',
             'csv_internal_sep': ',',
-            'publisher_warranty_url': 'http://services.ecore.cool/publisher-warranty/',
+            'publisher_warranty_url': 'http://services.ecore.com/publisher-warranty/',
             'reportgz': False,
             'root_path': None,
         }
@@ -347,7 +347,7 @@ class configmanager(object):
             rcfilepath = os.path.expanduser('~/.ecore_serverrc')
 
         self.rcfile = os.path.abspath(
-            self.config_file or opt.config or os.environ.get('ECORE_SERVER') or rcfilepath)
+            self.config_file or opt.config or os.environ.get('OPENERP_SERVER') or rcfilepath)
         self.load()
 
         # Verify that we want to log or not, if not the output will go to stdout
@@ -537,6 +537,9 @@ class configmanager(object):
 
     def get(self, key, default=None):
         return self.options.get(key, default)
+
+    def pop(self, key, default=None):
+        return self.options.pop(key, default)
 
     def get_misc(self, sect, key, default=None):
         return self.misc.get(sect,{}).get(key, default)
