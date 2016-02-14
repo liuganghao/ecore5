@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+from email.utils import formataddr
+
 from .common import TestMail
 from ecore.tools import mute_logger
 import socket
@@ -7,7 +9,7 @@ import socket
 MAIL_TEMPLATE = """Return-Path: <whatever-2a840@postmaster.twitter.com>
 To: {to}
 cc: {cc}
-Received: by mail1.ecore.cool (Postfix, from userid 10002)
+Received: by mail1.ecore.com (Postfix, from userid 10002)
     id 5DF9ABFB2A; Fri, 10 Aug 2012 16:16:39 +0200 (CEST)
 From: {email_from}
 Subject: {subject}
@@ -48,7 +50,7 @@ Content-Transfer-Encoding: quoted-printable
 
 MAIL_TEMPLATE_PLAINTEXT = """Return-Path: <whatever-2a840@postmaster.twitter.com>
 To: {to}
-Received: by mail1.ecore.cool (Postfix, from userid 10002)
+Received: by mail1.ecore.com (Postfix, from userid 10002)
     id 5DF9ABFB2A; Fri, 10 Aug 2012 16:16:39 +0200 (CEST)
 From: Sylvie Lelitre <test.sylvie.lelitre@agrolait.com>
 Subject: {subject}
@@ -311,7 +313,7 @@ class TestMailgateway(TestMail):
                          'message_process: incoming email on Partners alias should send a bounce email')
         self.assertIn('New Frogs', self._mails[0].get('subject'),
                       'message_process: bounce email on Partners alias should contain the original subject')
-        self.assertIn('test.sylvie.lelitre@agrolait.com', self._mails[0].get('email_to'),
+        self.assertIn(formataddr(('Sylvie Lelitre', 'test.sylvie.lelitre@agrolait.com')), self._mails[0].get('email_to'),
                       'message_process: bounce email on Partners alias should have original email sender as recipient')
 
     @mute_logger('ecore.addons.mail.models.mail_thread', 'ecore.models', 'ecore.addons.mail.models.mail_mail')

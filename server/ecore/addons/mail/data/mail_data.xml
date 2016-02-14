@@ -72,18 +72,18 @@
         <tbody><tr>
             <td valign="center" width="270" style="padding:5px 10px 5px 5px;font-size: 30px">
                 % if ctx.get('button_access'):
-                <a href="${ctx['button_access']['url']}" style="-webkit-user-select: none; padding: 5px 10px; font-size: 12px; line-height: 18px; color: #FFFFFF; border-color:#0289da; text-decoration: none; display: inline-block; margin-bottom: 0px; font-weight: 400; text-align: center; vertical-align: middle; cursor: pointer; white-space: nowrap; background-image: none; background-color: #0289da; border: 1px solid #0289da; border-radius:3px" class="o_default_snippet_text">${ctx['button_access']['title']}</a>
+                <a href="${ctx['button_access']['url']}" style="-webkit-user-select: none; padding: 5px 10px; font-size: 12px; line-height: 18px; color: #FFFFFF; border-color:#a24689; text-decoration: none; display: inline-block; margin-bottom: 0px; font-weight: 400; text-align: center; vertical-align: middle; cursor: pointer; white-space: nowrap; background-image: none; background-color: #a24689; border: 1px solid #a24689; border-radius:3px" class="o_default_snippet_text">${ctx['button_access']['title']}</a>
                 % endif
 
                 % if ctx.get('button_follow'):
-                <a href="${ctx['button_follow']['url']}" style="-webkit-user-select: none; padding: 5px 10px; font-size: 12px; line-height: 18px; color: #FFFFFF; border-color:#0289da; text-decoration: none; display: inline-block; margin-bottom: 0px; font-weight: 400; text-align: center; vertical-align: middle; cursor: pointer; white-space: nowrap; background-image: none; background-color: #0289da; border: 1px solid #0289da; border-radius:3px" class="o_default_snippet_text">${ctx['button_follow']['title']}</a>
+                <a href="${ctx['button_follow']['url']}" style="-webkit-user-select: none; padding: 5px 10px; font-size: 12px; line-height: 18px; color: #FFFFFF; border-color:#a24689; text-decoration: none; display: inline-block; margin-bottom: 0px; font-weight: 400; text-align: center; vertical-align: middle; cursor: pointer; white-space: nowrap; background-image: none; background-color: #a24689; border: 1px solid #a24689; border-radius:3px" class="o_default_snippet_text">${ctx['button_follow']['title']}</a>
                 
                 % elif ctx.get('button_unfollow'):
-                <a href="${ctx['button_unfollow']['url']}" style="-webkit-user-select: none; padding: 5px 10px; font-size: 12px; line-height: 18px; color: #FFFFFF; border-color:#0289da; text-decoration: none; display: inline-block; margin-bottom: 0px; font-weight: 400; text-align: center; vertical-align: middle; cursor: pointer; white-space: nowrap; background-image: none; background-color: #0289da; border: 1px solid #0289da; border-radius:3px" class="o_default_snippet_text">${ctx['button_unfollow']['title']}</a>
+                <a href="${ctx['button_unfollow']['url']}" style="-webkit-user-select: none; padding: 5px 10px; font-size: 12px; line-height: 18px; color: #FFFFFF; border-color:#a24689; text-decoration: none; display: inline-block; margin-bottom: 0px; font-weight: 400; text-align: center; vertical-align: middle; cursor: pointer; white-space: nowrap; background-image: none; background-color: #a24689; border: 1px solid #a24689; border-radius:3px" class="o_default_snippet_text">${ctx['button_unfollow']['title']}</a>
                 % endif
 
                 % if not ctx.get('button_access') and not ctx.get('button_follow') and not ctx.get('button_unfollow') and ctx.get('model_name'):
-                <p style="padding: 5px 10px; font-size: 12px;"">
+                <p style="padding: 5px 10px; font-size: 12px;">
                 About <strong>${ctx['model_name']}
                 % if ctx.get('record_name'):
                 : ${ctx['record_name']}
@@ -96,23 +96,24 @@
                 <p>
                 % if ctx.get('actions'):
                 % for action in ctx['actions']:
-                <a href="${action['url']}" style="text-decoration:none; color: #0289da;"><strong>${action['title']}</strong></a>
-                %if len(ctx['actions']) > 1 and loop.index < len(ctx['actions']):
+                <a href="${action['url']}" style="text-decoration:none; color: #a24689;"><strong>${action['title']}</strong></a>
+                %if cmp(len(ctx['actions']), 1) == 1 and cmp(len(ctx['actions']), loop.index) == 1:
                     |
                 % endif
                 % endfor
                 % else:
                 <strong>Sent by</strong>
                 % if ctx.get('website_url'):
-                <a href="${ctx['website_url']}" style="text-decoration:none; color: #0289da;">
+                <a href="${ctx['website_url']}" style="text-decoration:none; color: #a24689;">
                 % endif
                 <strong>${ctx.get('company_name')}</strong>
                 % if ctx.get('website_url'):
                 </a>
                 % endif
                 <strong>using</strong>
-                <a href="www.ecore.cool" style="text-decoration:none; color: #0289da;"><strong>eCore</strong></a>
+                <a href="https://www.ecore.com" style="text-decoration:none; color: #a24689;"><strong>eCore</strong></a>
                 % endif
+                </p>
             </td>
         </tr>
     </tbody></table>
@@ -136,7 +137,7 @@
                 % if ctx.get('tracking'):
                     <ul>
                     % for tracking in ctx['tracking']
-                        <li>${tracking[0]} : ${tracking[1]} -> ${tracking[2]}</li>
+                        <li>${tracking[0]} : ${tracking[1]} -&gt; ${tracking[2]}</li>
                     % endfor
                     </ul>
                 % endif
@@ -154,7 +155,8 @@
         </tr></tbody>
     </table>
 </div>
-% endif]]></field>
+% endif
+]]></field>
         </record>
 
     </data>
