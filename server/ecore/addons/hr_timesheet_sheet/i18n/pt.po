@@ -339,7 +339,7 @@ msgid "Internal Timesheet"
 msgstr "Folha de Horas Interna"
 
 #. module: hr_timesheet_sheet
-#: model:ir.model.fields,field_description:hr_timesheet_sheet.field_hr_timesheet_sheet_sheet_message_is_follower
+#: model:ir.model.fields,field_description:hr_timesheet_sheet.field_hr_timesheet_sheet_sheet_is_member
 msgid "Is Follower"
 msgstr "É um Seguidor"
 

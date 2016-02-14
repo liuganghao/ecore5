@@ -414,7 +414,7 @@ msgid "Introduction"
 msgstr "Introdução"
 
 #. module: website_event_track
-#: model:ir.model.fields,field_description:website_event_track.field_event_track_message_is_follower
+#: model:ir.model.fields,field_description:website_event_track.field_event_track_is_member
 msgid "Is Follower"
 msgstr "É um Seguidor"
 

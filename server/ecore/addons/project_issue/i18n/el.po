@@ -384,7 +384,7 @@ msgid "Important Messages"
 msgstr "Σημαντικά Μηνύματα "
 
 #. module: project_issue
-#: model:ir.model.fields,field_description:project_issue.field_project_issue_message_is_follower
+#: model:ir.model.fields,field_description:project_issue.field_project_issue_is_member
 msgid "Is Follower"
 msgstr "Είναι Ακόλουθος"
 

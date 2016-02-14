@@ -355,7 +355,7 @@ msgid "If checked, new messages require your attention."
 msgstr "Ak zaškrtnuté, nové správy vyžadujú vašu pozornosť."
 
 #. module: purchase_requisition
-#: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_message_is_follower
+#: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_is_member
 msgid "Is Follower"
 msgstr "Je odberateľ"
 

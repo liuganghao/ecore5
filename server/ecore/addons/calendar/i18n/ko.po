@@ -870,7 +870,7 @@ msgid "Invite wizard"
 msgstr "마법사 초대"
 
 #. module: calendar
-#: model:ir.model.fields,field_description:calendar.field_calendar_event_message_is_follower
+#: model:ir.model.fields,field_description:calendar.field_calendar_event_is_member
 msgid "Is Follower"
 msgstr ""
 

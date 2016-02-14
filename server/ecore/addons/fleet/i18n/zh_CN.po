@@ -924,7 +924,7 @@ msgid "Invoice Reference"
 msgstr "发票参考"
 
 #. module: fleet
-#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_message_is_follower
+#: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_is_member
 msgid "Is Follower"
 msgstr "是否关注者"
 

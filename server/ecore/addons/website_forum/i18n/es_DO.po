@@ -1575,8 +1575,8 @@ msgid "Is Favourite"
 msgstr ""
 
 #. module: website_forum
-#: model:ir.model.fields,field_description:website_forum.field_forum_forum_message_is_follower
-#: model:ir.model.fields,field_description:website_forum.field_forum_post_message_is_follower
+#: model:ir.model.fields,field_description:website_forum.field_forum_forum_is_member
+#: model:ir.model.fields,field_description:website_forum.field_forum_post_is_member
 msgid "Is Follower"
 msgstr "Es un seguidor"
 

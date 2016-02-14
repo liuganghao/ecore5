@@ -876,7 +876,7 @@ msgid "Invoicing/Progression Ratio"
 msgstr "Omjer izdanih računa"
 
 #. module: sale
-#: model:ir.model.fields,field_description:sale.field_sale_order_message_is_follower
+#: model:ir.model.fields,field_description:sale.field_sale_order_is_member
 msgid "Is Follower"
 msgstr "Je pratitelj"
 

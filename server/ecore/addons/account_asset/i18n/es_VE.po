@@ -651,7 +651,7 @@ msgid "Invoice Line"
 msgstr "Línea factura"
 
 #. module: account_asset
-#: model:ir.model.fields,field_description:account_asset.field_account_asset_asset_message_is_follower
+#: model:ir.model.fields,field_description:account_asset.field_account_asset_asset_is_member
 msgid "Is Follower"
 msgstr ""
 

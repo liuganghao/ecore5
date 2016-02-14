@@ -989,8 +989,8 @@ msgid "Invited"
 msgstr ""
 
 #. module: gamification
-#: model:ir.model.fields,field_description:gamification.field_gamification_badge_message_is_follower
-#: model:ir.model.fields,field_description:gamification.field_gamification_challenge_message_is_follower
+#: model:ir.model.fields,field_description:gamification.field_gamification_badge_is_member
+#: model:ir.model.fields,field_description:gamification.field_gamification_challenge_is_member
 msgid "Is Follower"
 msgstr ""
 

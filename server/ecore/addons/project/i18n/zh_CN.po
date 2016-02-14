@@ -1945,8 +1945,8 @@ msgid ""
 msgstr "内部提示会显示在Chatter中单身是不会通知到ecore的收件箱"
 
 #. module: project
-#: model:ir.model.fields,field_description:project.field_project_project_message_is_follower
-#: model:ir.model.fields,field_description:project.field_project_task_message_is_follower
+#: model:ir.model.fields,field_description:project.field_project_project_is_member
+#: model:ir.model.fields,field_description:project.field_project_task_is_member
 msgid "Is Follower"
 msgstr "是否关注者"
 

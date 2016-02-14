@@ -1933,7 +1933,7 @@ msgid "Is Company"
 msgstr "Es empresa"
 
 #. module: crm
-#: model:ir.model.fields,field_description:crm.field_crm_lead_message_is_follower
+#: model:ir.model.fields,field_description:crm.field_crm_lead_is_member
 msgid "Is Follower"
 msgstr "Es un seguidor"
 

@@ -230,7 +230,7 @@ msgid "Information"
 msgstr "מידע"
 
 #. module: stock_landed_costs
-#: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_message_is_follower
+#: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_is_member
 msgid "Is Follower"
 msgstr ""
 

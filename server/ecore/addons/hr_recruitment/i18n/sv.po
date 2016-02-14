@@ -978,7 +978,7 @@ msgid "Interview Form"
 msgstr "Intervjuformulär"
 
 #. module: hr_recruitment
-#: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant_message_is_follower
+#: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant_is_member
 msgid "Is Follower"
 msgstr ""
 

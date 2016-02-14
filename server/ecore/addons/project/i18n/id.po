@@ -1942,8 +1942,8 @@ msgid ""
 msgstr "Catatan Internal adalah pesan yang akan muncul dalam obrolan tapi akan tidak diberitahu di eCore di kotak masuk."
 
 #. module: project
-#: model:ir.model.fields,field_description:project.field_project_project_message_is_follower
-#: model:ir.model.fields,field_description:project.field_project_task_message_is_follower
+#: model:ir.model.fields,field_description:project.field_project_project_is_member
+#: model:ir.model.fields,field_description:project.field_project_task_is_member
 msgid "Is Follower"
 msgstr "Adalah pengikut"
 

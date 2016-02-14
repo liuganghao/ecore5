@@ -231,7 +231,7 @@ msgid "Invoiced"
 msgstr "Számlázott"
 
 #. module: sales_team
-#: model:ir.model.fields,field_description:sales_team.field_crm_team_message_is_follower
+#: model:ir.model.fields,field_description:sales_team.field_crm_team_is_member
 msgid "Is Follower"
 msgstr "Ő egy követő"
 

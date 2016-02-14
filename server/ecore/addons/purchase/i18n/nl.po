@@ -802,7 +802,7 @@ msgid "Invoices and Incoming Shipments"
 msgstr "Facturen en inkomende leveringen"
 
 #. module: purchase
-#: model:ir.model.fields,field_description:purchase.field_purchase_order_message_is_follower
+#: model:ir.model.fields,field_description:purchase.field_purchase_order_is_member
 msgid "Is Follower"
 msgstr "Is een volger"
 
