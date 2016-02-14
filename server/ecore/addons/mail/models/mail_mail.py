@@ -3,6 +3,7 @@
 import base64
 import logging
 from email.utils import formataddr
+from urlparse import urljoin
 
 import psycopg2
 
@@ -154,7 +155,7 @@ class MailMail(models.Model):
         if partner:
             email_to = [formataddr((partner.name, partner.email))]
         else:
-            email_to = tools.email_split_and_format(self.email_to)
+            email_to = tools.email_split(self.email_to)
         return email_to
 
     @api.multi
@@ -275,7 +276,7 @@ class MailMail(models.Model):
                     mail_sent = True
 
                 # /!\ can't use mail.state here, as mail.refresh() will cause an error
-                # see revid:odo@ecore.com-20120622152536-42b2s28lvdv3odyr in 6.1
+                # see revid:odo@ecore.cool-20120622152536-42b2s28lvdv3odyr in 6.1
                 if mail_sent:
                     _logger.info('Mail with ID %r and Message-Id %r successfully sent', mail.id, mail.message_id)
                 mail._postprocess_sent_message_v9(mail_sent=mail_sent)

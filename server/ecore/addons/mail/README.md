@@ -2,7 +2,7 @@ eCore Enterprise Social Network
 ------------------------------
 
 Connect with experts, follow what interests you, share documents and promote
-best practices with eCore <a href="https://www.ecore.com/page/enterprise-social-network">Enterprise Social Network</a>. Get work done with
+best practices with eCore <a href="http://www.ecore.cool/page/enterprise-social-network">Enterprise Social Network</a>. Get work done with
 effective collaboration across departments, geographies, documents and business
 applications. All of this while decreasing email overload.
 

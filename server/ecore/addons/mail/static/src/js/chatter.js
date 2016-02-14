@@ -33,6 +33,7 @@ var Followers = form_common.AbstractField.extend({
         this.image = this.node.attrs.image || 'image_small';
         this.comment = this.node.attrs.help || false;
         this.ds_model = new data.DataSetSearch(this, this.view.model);
+        this.ds_users = new data.DataSetSearch(this, 'res.users');
 
         this.value = [];
         this.followers = [];
@@ -190,9 +191,23 @@ var Followers = form_common.AbstractField.extend({
     fetch_followers: function (value_) {
         this.value = value_ || [];
         return ajax.jsonRpc('/mail/read_followers', 'call', {'follower_ids': this.value})
-            .then(this.proxy('display_followers'), this.proxy('display_generic'))
+            .then(this.proxy('display_followers'), this.proxy('fetch_generic'))
             .then(this.proxy('display_buttons'))
             .then(this.proxy('fetch_subtypes'));
+    },
+
+    /** Read on res.partner failed: fall back on a generic case
+        - fetch current user partner_id (call because no other smart solution currently) FIXME
+        - then display a generic message about followers */
+    fetch_generic: function () {
+        var self = this;
+
+        return this.ds_users.call('read', [[session.uid], ['partner_id']])
+            .then(function (results) {
+                var pid = results[0].partner_id[0];
+                self.message_is_follower = (_.indexOf(self.value, pid) !== -1);
+            })
+            .then(self.proxy('display_generic'));
     },
 
     _format_followers: function (count){
@@ -207,11 +222,9 @@ var Followers = form_common.AbstractField.extend({
         return str;
     },
 
-    /** Read on res.partner failed: only display the number of followers */
+    /* Display generic info about follower, for people not having access to res_partner */
     display_generic: function () {
-        this.$('.o_followers_actions').hide();
-        this.$('.o_followers_list').hide();
-        this.$('.o_followers_title_box > button').prop('disabled', true);
+        this.$('.o_followers_list').empty();
         this.$('.o_followers_count').html(this._format_followers(this.value.length));
     },
 
@@ -454,10 +467,6 @@ var ChatterComposer = composer.BasicComposer.extend({
         return $.when(this._super.apply(this, arguments), this.message_get_suggested_recipients());
     },
 
-    should_send: function () {
-        return false;
-    },
-
     preprocess_message: function () {
         var self = this;
         var def = $.Deferred();
@@ -547,7 +556,7 @@ var ChatterComposer = composer.BasicComposer.extend({
     },
 
     /**
-     * Check the additionnal partners (not necessary registered partners), and open a popup form view
+     * Check the additional partners (not necessary registered partners), and open a popup form view
      * for the ones who informations is missing.
      * @param Array : list of 'recipient' partners to complete informations or validate
      * @returns Deferred resolved with the list of checked suggested partners (real partner)
@@ -705,16 +714,6 @@ var Chatter = form_common.AbstractField.extend({
     start: function () {
         var self = this;
 
-        // Hide the chatter in 'create' mode
-        this.view.on("change:actual_mode", this, this.check_visibility);
-        this.check_visibility();
-        var $container = this.$el.parent();
-        if ($container.hasClass('oe_chatter')) {
-            this.$el
-                .addClass($container.attr("class"))
-                .unwrap();
-        }
-
         // Move the follower's widget (if any) inside the chatter
         this.followers = this.field_manager.fields.message_follower_ids;
         if (this.followers) {
@@ -746,10 +745,6 @@ var Chatter = form_common.AbstractField.extend({
             chat_manager.bus.on('update_message', self, self.on_update_message);
             self.ready.resolve();
         });
-    },
-
-    check_visibility: function () {
-        this.set({"force_invisible": this.view.get("actual_mode") === "create"});
     },
 
     fetch_and_render_thread: function (ids, options) {
@@ -867,8 +862,6 @@ var Chatter = form_common.AbstractField.extend({
         // destroy current composer, if any
         if (this.composer) {
             this.composer.destroy();
-            this.composer = undefined;
-            this.mute_new_message_button(false);
         }
 
         // fetch and render messages of current document
@@ -898,8 +891,6 @@ var Chatter = form_common.AbstractField.extend({
             internal_subtypes: this.options.internal_subtypes,
             is_log: options && options.is_log,
             record_name: this.record_name,
-            default_body: old_composer && old_composer.$input.val(),
-            default_mention_selections: old_composer && old_composer.mention_get_listener_selections(),
         });
         this.composer.on('input_focused', this, function () {
             this.composer.mention_set_prefetched_partners(this.mention_suggestions || []);
@@ -915,19 +906,11 @@ var Chatter = form_common.AbstractField.extend({
             self.composer.on('post_message', self, self.on_post_message);
             self.composer.on('need_refresh', self, self.refresh_followers);
         });
-        this.mute_new_message_button(true);
+
     },
     close_composer: function () {
         if (this.composer.is_empty()) {
             this.composer.do_hide();
-            this.mute_new_message_button(false);
-        }
-    },
-    mute_new_message_button: function (mute) {
-        if (mute) {
-            this.$('.o_chatter_button_new_message').removeClass('btn-primary').addClass('btn-default');
-        } else if (!mute) {
-            this.$('.o_chatter_button_new_message').removeClass('btn-default').addClass('btn-primary');
         }
     },
 

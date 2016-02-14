@@ -41,7 +41,7 @@ class Alias(models.Model):
     _rec_name = 'alias_name'
     _order = 'alias_model_id, alias_name'
 
-    alias_name = fields.Char('Alias Name', help="The name of the email alias, e.g. 'jobs' if you want to catch emails for <jobs@example.ecore.com>")
+    alias_name = fields.Char('Alias Name', help="The name of the email alias, e.g. 'jobs' if you want to catch emails for <jobs@example.ecore.cool>")
     alias_model_id = fields.Many2one('ir.model', 'Aliased Model', required=True, ondelete="cascade",
                                      help="The model (eCore Document Kind) to which this alias "
                                           "corresponds. Any incoming email that does not reply to an "
@@ -78,7 +78,7 @@ class Alias(models.Model):
         help="Policy to post a message on the document using the mailgateway.\n"
              "- everyone: everyone can post\n"
              "- partners: only authenticated partners\n"
-             "- followers: only followers of the related document or members of following channels\n")
+             "- followers: only followers of the related document\n")
 
     _sql_constraints = [
         ('alias_unique', 'UNIQUE(alias_name)', 'Unfortunately this email alias is already used, please choose a unique one')
@@ -129,7 +129,7 @@ class Alias(models.Model):
     def name_get(self):
         """Return the mail alias display alias_name, including the implicit
            mail catchall domain if exists from config otherwise "New Alias".
-           e.g. `jobs@mail.ecore.com` or `jobs` or 'New Alias'
+           e.g. `jobs@mail.ecore.cool` or `jobs` or 'New Alias'
         """
         res = []
         for record in self:
