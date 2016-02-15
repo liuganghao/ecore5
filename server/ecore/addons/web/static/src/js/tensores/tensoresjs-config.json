@@ -1,20 +1,20 @@
 {
-  "tensores": {
+  "particles": {
     "number": {
-      "value": 128,
+      "value": 64,
       "density": {
         "enable": true,
         "value_area": 800
       }
     },
     "color": {
-      "value": "#ccc"
+      "value": "rgba(3,169,244,0.25)"
     },
     "shape": {
       "type": "circle",
       "stroke": {
         "width": 0,
-        "color": "#ffffff"
+        "color": "#rgba(3,169,244,0.25)"
       },
       "polygon": {
         "nb_sides": 5
@@ -48,7 +48,7 @@
     "line_linked": {
       "enable": true,
       "distance": 150,
-      "color": "#ccc",
+      "color": "rgba(3,169,244,0.25)",
       "opacity": 0.2,
       "width": 1
     },
@@ -99,10 +99,10 @@
         "duration": 0.4
       },
       "push": {
-        "tensores_nb": 4
+        "particles_nb": 4
       },
       "remove": {
-        "tensores_nb": 2
+        "particles_nb": 2
       }
     }
   },
