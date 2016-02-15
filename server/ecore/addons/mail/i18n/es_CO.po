@@ -278,14 +278,14 @@ msgstr ""
 #: code:addons/mail/static/src/xml/client_action.xml:13
 #, python-format
 msgid "@ Inbox"
-msgstr "@ Inbox"
+msgstr "Bandeja de entrada"
 
 #. module: mail
 #. ecore-web
 #: code:addons/mail/static/src/xml/systray.xml:20
 #, python-format
 msgid "@Inbox"
-msgstr ""
+msgstr "Bandeja de entrada"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias_alias_defaults
@@ -1506,7 +1506,7 @@ msgstr "Alias Inactivo"
 #: code:addons/mail/static/src/js/chat_manager.js:426
 #, python-format
 msgid "Inbox"
-msgstr "Inbox"
+msgstr "Bandeja entrada"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_compose_message_parent_id
