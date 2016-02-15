@@ -35,7 +35,7 @@
         </record>
 
         <menuitem action="utm_campaign_act" id="menu_utm_campaign_act" sequence="4"
-            groups="base.group_no_one" parent="marketing_utm"/>
+            groups="base.group_no_one" parent="base.marketing_menu"/>
 
     	<!-- utm.medium -->
         <record id="utm_medium_view_tree" model="ir.ui.view">
@@ -72,7 +72,7 @@
             </field>
         </record>
 
-        <menuitem action="utm_medium_action" id="menu_utm_medium" parent="marketing_utm" sequence="4" groups="base.group_no_one"/>
+        <menuitem action="utm_medium_action" id="menu_utm_medium" parent="base.marketing_menu" sequence="4" groups="base.group_no_one"/>
 
         <!-- utm.source -->
         <record id="utm_source_view_tree" model="ir.ui.view">
@@ -107,6 +107,6 @@
             </field>
         </record>
 
-        <menuitem action="utm_source_action" id="menu_utm_source" parent="marketing_utm" sequence="4" groups="base.group_no_one"/>
+        <menuitem action="utm_source_action" id="menu_utm_source" parent="base.marketing_menu" sequence="4" groups="base.group_no_one"/>
     </data>
 </ecore>
