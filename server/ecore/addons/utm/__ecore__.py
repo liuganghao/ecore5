@@ -13,5 +13,6 @@ Enable UTM trackers in shared links.
         'utm_data.xml'
     ],
     'demo': [],
-    'auto_install': True,
+    'installable': True,
+    'auto_install': False,
 }
