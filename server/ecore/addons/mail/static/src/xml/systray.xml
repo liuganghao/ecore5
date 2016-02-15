@@ -12,7 +12,7 @@
     <t t-name="mail.chat.MessagingMenu">
         <li class="o_mail_navbar_item">
             <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" title="Conversations" href="#">
-                <i class="fa fa-comments"/> <span class="o_notification_counter"/>
+                <i class="fa fa-commenting-o"/> <span class="o_notification_counter"/>
             </a>
             <ul class="o_mail_navbar_dropdown dropdown-menu" role="menu">
                 <li class="o_mail_navbar_dropdown_top">
