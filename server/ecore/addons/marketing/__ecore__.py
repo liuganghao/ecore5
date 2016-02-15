@@ -20,4 +20,5 @@ Contains the installer for marketing-related modules.
     'demo': [],
     'installable': True,
     'auto_install': False,
+    'application' : True,
 }
