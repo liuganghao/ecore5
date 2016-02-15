@@ -828,7 +828,7 @@ msgstr "Modo de composición"
 #: code:addons/mail/static/src/xml/thread.xml:24
 #, python-format
 msgid "Congratulations, your inbox is empty"
-msgstr ""
+msgstr "Buen trabajo, no tienes mensajes pendientes."
 
 #. module: mail
 #: model:ir.actions.act_window,name:mail.action_contacts
