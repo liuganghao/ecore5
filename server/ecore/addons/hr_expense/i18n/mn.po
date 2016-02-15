@@ -388,7 +388,7 @@ msgid "If checked, new messages require your attention."
 msgstr "Хэрэв сонгосон бол, шинэ зурвасуудад анхаарал хандуулахыг шаардана."
 
 #. module: hr_expense
-#: model:ir.model.fields,field_description:hr_expense.field_hr_expense_is_member
+#: model:ir.model.fields,field_description:hr_expense.field_hr_expense_message_is_follower
 msgid "Is Follower"
 msgstr "Дагагч эсэх"
 

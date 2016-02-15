@@ -44,7 +44,7 @@ animation.registry.follow = animation.Class.extend({
             ajax.jsonRpc('/website_mail/follow', 'call', {
                 'id': +this.$target.data('id'),
                 'object': this.$target.data('object'),
-                'is_member': this.$target.attr("data-follow") || "off",
+                'message_is_follower': this.$target.attr("data-follow") || "off",
                 'email': email,
             }).then(function (follow) {
                 self.toggle_subscription(follow, email);

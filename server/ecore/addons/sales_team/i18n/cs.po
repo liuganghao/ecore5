@@ -230,7 +230,7 @@ msgid "Invoiced"
 msgstr "Fakturováno"
 
 #. module: sales_team
-#: model:ir.model.fields,field_description:sales_team.field_crm_team_is_member
+#: model:ir.model.fields,field_description:sales_team.field_crm_team_message_is_follower
 msgid "Is Follower"
 msgstr ""
 

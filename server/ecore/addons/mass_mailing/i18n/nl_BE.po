@@ -740,7 +740,7 @@ msgid "In Queue"
 msgstr ""
 
 #. module: mass_mailing
-#: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_contact_is_member
+#: model:ir.model.fields,field_description:mass_mailing.field_mail_mass_mailing_contact_message_is_follower
 msgid "Is Follower"
 msgstr "Is Volger"
 

@@ -1524,7 +1524,7 @@ class Root(object):
         sid = httprequest.args.get('session_id')
         explicit_session = True
         if not sid:
-            sid =  httprequest.headers.get("X-Openerp-Session-Id")
+            sid =  httprequest.headers.get("X-Ecore-Session-Id")
         if not sid:
             sid = httprequest.cookies.get('session_id')
             explicit_session = False

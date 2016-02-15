@@ -803,7 +803,7 @@ msgid "Invoices and Incoming Shipments"
 msgstr "Računi i pošiljke u dolasku"
 
 #. module: purchase
-#: model:ir.model.fields,field_description:purchase.field_purchase_order_is_member
+#: model:ir.model.fields,field_description:purchase.field_purchase_order_message_is_follower
 msgid "Is Follower"
 msgstr "Je pratitelj"
 

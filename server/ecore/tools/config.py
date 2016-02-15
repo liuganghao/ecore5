@@ -347,7 +347,7 @@ class configmanager(object):
             rcfilepath = os.path.expanduser('~/.ecore_serverrc')
 
         self.rcfile = os.path.abspath(
-            self.config_file or opt.config or os.environ.get('OPENERP_SERVER') or rcfilepath)
+            self.config_file or opt.config or os.environ.get('ECORE_SERVER') or rcfilepath)
         self.load()
 
         # Verify that we want to log or not, if not the output will go to stdout

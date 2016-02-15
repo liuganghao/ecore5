@@ -276,7 +276,7 @@ msgid ""
 msgstr "在eCore中，用分析账来实施销售订单和项目。你可以通过追踪成本和营收来分析利润"
 
 #. module: analytic
-#: model:ir.model.fields,field_description:analytic.field_account_analytic_account_is_member
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_account_message_is_follower
 msgid "Is Follower"
 msgstr "是否关注者"
 

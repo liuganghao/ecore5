@@ -421,7 +421,7 @@ msgid "Invoicing Address"
 msgstr "Adresa za račun"
 
 #. module: mrp_repair
-#: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_is_member
+#: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_message_is_follower
 msgid "Is Follower"
 msgstr "Je pratitelj"
 

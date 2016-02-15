@@ -806,7 +806,7 @@ msgid "Invoices and Incoming Shipments"
 msgstr "Factures et réceptions"
 
 #. module: purchase
-#: model:ir.model.fields,field_description:purchase.field_purchase_order_is_member
+#: model:ir.model.fields,field_description:purchase.field_purchase_order_message_is_follower
 msgid "Is Follower"
 msgstr "Est un abonné"
 

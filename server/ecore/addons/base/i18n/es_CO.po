@@ -11415,7 +11415,7 @@ msgstr "Operaciones de Manufactura"
 #. module: base
 #: model:ir.module.module,summary:base.module_mrp
 msgid "Manufacturing Orders, Bill of Materials, Routings"
-msgstr "Órdenes de Producción, Listas de Materiales, Rutas de Producción"
+msgstr "Órdenes y rutas Producción, Listas de Materiales"
 
 #. module: base
 #: code:addons/models.py:2788
@@ -11445,7 +11445,7 @@ msgstr "Relaciones ManyToMany"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_product_margin
 msgid "Margins by Products"
-msgstr ""
+msgstr "Margenes por productos"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_margin

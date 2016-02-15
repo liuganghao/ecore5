@@ -276,7 +276,7 @@ msgid ""
 msgstr "V eCore sú predajné objednávky a projekty  implementované použitím\n\nanalytických účtov. Môžete sledovať náklady a výnosy pre jednoduchú analýzu\n\nvašich výnosov."
 
 #. module: analytic
-#: model:ir.model.fields,field_description:analytic.field_account_analytic_account_is_member
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_account_message_is_follower
 msgid "Is Follower"
 msgstr "Je odberateľ"
 

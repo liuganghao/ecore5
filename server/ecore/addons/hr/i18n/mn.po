@@ -672,9 +672,9 @@ msgid "Increase the visibility of the product"
 msgstr ""
 
 #. module: hr
-#: model:ir.model.fields,field_description:hr.field_hr_department_is_member
-#: model:ir.model.fields,field_description:hr.field_hr_employee_is_member
-#: model:ir.model.fields,field_description:hr.field_hr_job_is_member
+#: model:ir.model.fields,field_description:hr.field_hr_department_message_is_follower
+#: model:ir.model.fields,field_description:hr.field_hr_employee_message_is_follower
+#: model:ir.model.fields,field_description:hr.field_hr_job_message_is_follower
 msgid "Is Follower"
 msgstr "Дагагч эсэх"
 

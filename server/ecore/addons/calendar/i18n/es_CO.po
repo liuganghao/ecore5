@@ -871,7 +871,7 @@ msgid "Invite wizard"
 msgstr "Asistente de invitación"
 
 #. module: calendar
-#: model:ir.model.fields,field_description:calendar.field_calendar_event_is_member
+#: model:ir.model.fields,field_description:calendar.field_calendar_event_message_is_follower
 msgid "Is Follower"
 msgstr "Es Seguidor"
 

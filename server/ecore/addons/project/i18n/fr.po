@@ -1948,8 +1948,8 @@ msgid ""
 msgstr "Les notes internes sont des messages qui apparaitront dans le Chatter mais qui ne seront pas notifiés dans la boite de réception d'eCore."
 
 #. module: project
-#: model:ir.model.fields,field_description:project.field_project_project_is_member
-#: model:ir.model.fields,field_description:project.field_project_task_is_member
+#: model:ir.model.fields,field_description:project.field_project_project_message_is_follower
+#: model:ir.model.fields,field_description:project.field_project_task_message_is_follower
 msgid "Is Follower"
 msgstr "Est un abonné"
 

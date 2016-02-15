@@ -706,7 +706,7 @@ msgid "Invoicing Policy"
 msgstr "Rechnungssatz"
 
 #. module: delivery
-#: model:ir.model.fields,field_description:delivery.field_delivery_carrier_is_member
+#: model:ir.model.fields,field_description:delivery.field_delivery_carrier_message_is_follower
 msgid "Is Follower"
 msgstr "Ist ein Follower"
 

@@ -502,9 +502,9 @@ msgid "Internal Note ......."
 msgstr ""
 
 #. module: hr_equipment
-#: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_category_is_member
-#: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_is_member
-#: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_request_is_member
+#: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_category_message_is_follower
+#: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_message_is_follower
+#: model:ir.model.fields,field_description:hr_equipment.field_hr_equipment_request_message_is_follower
 msgid "Is Follower"
 msgstr "Is Volgeling"
 

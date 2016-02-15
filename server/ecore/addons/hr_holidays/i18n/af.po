@@ -563,7 +563,7 @@ msgid "Important Messages"
 msgstr "Belangrike Boodskappe"
 
 #. module: hr_holidays
-#: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_is_member
+#: model:ir.model.fields,field_description:hr_holidays.field_hr_holidays_message_is_follower
 msgid "Is Follower"
 msgstr "Is Volgeling"
 
