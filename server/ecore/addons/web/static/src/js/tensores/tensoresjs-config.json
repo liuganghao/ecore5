@@ -1,5 +1,5 @@
 {
-  "particles": {
+  "tensores": {
     "number": {
       "value": 64,
       "density": {
@@ -99,10 +99,10 @@
         "duration": 0.4
       },
       "push": {
-        "particles_nb": 4
+        "tensores_nb": 4
       },
       "remove": {
-        "particles_nb": 2
+        "tensores_nb": 2
       }
     }
   },
