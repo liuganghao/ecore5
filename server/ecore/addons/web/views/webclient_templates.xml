@@ -36,7 +36,6 @@
             <script type="text/javascript" src="/web/static/src/js/tour.js"></script>
             <script type="text/javascript" src="/web/static/test/menu.js"></script>
             <script type="text/javascript" src="/web/static/test/x2many.js"></script>
-            <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
             <link rel="stylesheet" href="/web/static/lib/jquery.ui/jquery-ui.css"/>
             <link rel="stylesheet" href="/web/static/lib/fontawesome/css/font-awesome.css"/>
             <link rel="stylesheet" href="/web/static/src/fonts/lato/stylesheet.css" />
@@ -182,6 +181,7 @@
                     <meta name="viewport" content="width=device-width, initial-scale=1"/>
                     <title>eCore</title>
                     <link rel="shortcut icon" href="/web/static/src/img/favicon.png" type="image/x-icon"/>
+                    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
                     <link rel="stylesheet" href="/web/static/src/css/full.css" />
                     <t t-raw="head or ''"/>
                 </head>
