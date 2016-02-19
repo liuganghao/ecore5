@@ -7,7 +7,7 @@
     'category': 'sapps',
     'summary': 'Maker your module.',
     'depends': [
-        'admin_technical_features',
+        'base_technical_features',
     ],
     'external_dependencies': {
         'python': [],
