@@ -16,7 +16,7 @@
 
         <ul id="oe_applications" class="nav navbar-nav navbar-left navbar-collapse collapse">
             <li class="dropdown active">
-                <a href="#" class="dropdown-toggle hidden-xs" data-toggle="dropdown"><i class="fa fa-th-large"></i> Website<b class="caret"/></a>
+                <a href="#" class="dropdown-toggle hidden-xs" style="background: #fff;" data-toggle="dropdown"><i class="fa fa-th-large"></i> Website<b class="caret" /></a>
                 <ul class="dropdown-menu">
                     <li t-foreach="menu_data['children']" t-as="menu">
                         <t t-set="debug_param" t-value="'?&amp;debug=' if debug else ''"/>
