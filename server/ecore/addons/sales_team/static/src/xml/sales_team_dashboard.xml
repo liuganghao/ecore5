@@ -207,7 +207,7 @@
 
             <div t-if="show_demo" class="o_welcome_message">
                 <div class="o_welcome_image">
-                    <i class="fa material-icons fa-5x" style="color: #0289da; font-size: 50px;">view_quilt</i>
+                    <i class="fa material-icons fa-5x" style="color: #03a9f4; font-size: 50px;">view_quilt</i>
                 </div>
                 <div class="o_welcome_content">
                     <h2>Hi there!</h2>

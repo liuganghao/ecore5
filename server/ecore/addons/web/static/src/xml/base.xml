@@ -829,7 +829,7 @@
                 t-att-placeholder="widget.node.attrs.placeholder"/>
             <span class="o_dropdown_button" draggable="false"/>
         </div>
-        <button type="button" t-if="!widget.options.no_open" class="fa fa-external-link btn btn-default o_external_button" style="border: none; background: none; color: #0289da;" tabindex="-1" draggable="false"/>
+        <button type="button" t-if="!widget.options.no_open" class="fa fa-external-link btn btn-default o_external_button" style="border: none; background: none; color: #03a9f4;" tabindex="-1" draggable="false"/>
     </div>
 </t>
 <t t-name="Many2OneButton.cell">

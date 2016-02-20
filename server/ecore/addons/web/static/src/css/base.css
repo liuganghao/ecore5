@@ -255,7 +255,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
   font-size: inherit;
 }
 .ecore .ui-widget-content a {
-  color: #0289da;
+  color: #03a9f4;
 }
 .ecore .oe_bounce_container {
   display: inline-block;
@@ -338,7 +338,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
   line-height: 120%;
 }
 .ecore .oe_stat_button .o_button_icon {
-  color: #0289da;
+  color: #03a9f4;
   font-size: 24px;
   padding: 0px 3px;
   width: 37px;
@@ -479,7 +479,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
   word-break: break-word;
 }
 .ecore .oe_tag_dark {
-  background: #0289da;
+  background: #03a9f4;
   color: #eee;
 }
 .ecore .oe_form_field_radio.oe_horizontal label {
@@ -700,16 +700,16 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
   font-weight: bold;
 }
 .ecore .oe_leftbar .oe_footer a span {
-  color: #0289da;
+  color: #03a9f4;
 }
 .ecore .oe_secondary_menu_section {
   font-weight: bold;
   margin-left: 8px;
-  color: #0289da;
+  color: #03a9f4;
 }
 .ecore .oe_secondary_menu_section > .oe_menu_leaf {
   font-weight: bold;
-  color: #0289da;
+  color: #03a9f4;
 }
 .ecore .oe_secondary_submenu {
   margin-bottom: 10px !important;
@@ -760,10 +760,10 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
   margin-left: 20px;
 }
 .ecore .oe_about .label {
-  background-color: #0289da;
+  background-color: #03a9f4;
 }
 .ecore .oe_about a {
-  color: #0289da;
+  color: #03a9f4;
 }
 .ecore .oe_about .user-details {
   position: relative;
@@ -788,7 +788,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
   padding: 10px 20px;
 }
 .ecore .oe_about .user-details .user-info-block .navigation li.active a {
-  background: #0289da;
+  background: #03a9f4;
   color: #fff;
 }
 .ecore .oe_about .user-details .user-info-block .user-body {
@@ -1148,7 +1148,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
   margin-left: 20px;
 }
 .ecore .oe_searchview .oe-autocomplete ul li.oe-selection-focus {
-  background-color: #0289da;
+  background-color: #03a9f4;
   color: white;
 }
 .ecore .oe_searchview .oe-autocomplete ul li.oe-separator {
@@ -1642,7 +1642,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
   font-weight: bold;
   font-size: 20px;
   margin: 15px 0px 10px 0px;
-  color: #0289da;
+  color: #03a9f4;
 }
 .ecore .oe_horizontal_separator:empty {
   height: 5px;
@@ -1914,7 +1914,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
 .ecore .oe_fileupload .oe_add button.oe_attach {
   width: 24px;
   background: transparent;
-  color: #0289da;
+  color: #03a9f4;
   box-shadow: none;
   border: none;
   text-shadow: none;
@@ -1932,7 +1932,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
   cursor: pointer;
 }
 .ecore .oe_fileupload .oe_add .oe_attach_label {
-  color: #0289da;
+  color: #03a9f4;
   margin-left: -3px;
 }
 .ecore .oe_fileupload .oe_attachments {
@@ -1994,7 +1994,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
   float: right;
   padding-left: 2px;
   font-size: 19px;
-  color: #0289da;
+  color: #03a9f4;
   cursor: pointer;
 }
 .ecore .oe_form_field_many2one input {
@@ -2144,7 +2144,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
   background-image: linear-gradient(to bottom, #e8e8e8, #cacaca);
 }
 .ecore ul.oe_form_status_clickable li > .label {
-  color: #0289da;
+  color: #03a9f4;
 }
 .ecore ul.oe_form_status_clickable li.oe_active:hover {
   background-color: #3a699f;
@@ -2594,22 +2594,22 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
   padding-left: 16px;
 }
 .ecore .nav-pills > li.active > a, .ecore a.list-group-item.active > a {
-  background-color: #0289da;
+  background-color: #03a9f4;
   color: white;
   border-radius: 0;
 }
 .ecore .nav-pills > li.active a:hover, .ecore .nav-pills > li.active a:focus, .ecore a.list-group-item.active a:hover, .ecore a.list-group-item.active a:focus {
-  background-color: #0289da;
+  background-color: #03a9f4;
 }
 .ecore .nav-pills > li.active .badge, .ecore a.list-group-item.active .badge {
   background-color: white;
-  color: #0289da;
+  color: #03a9f4;
   text-shadow: none;
 }
 .ecore .badge {
   font-weight: normal;
   font-size: 11px;
-  background-color: #0289da;
+  background-color: #03a9f4;
 }
 .ecore h1, .ecore h2 {
   font-weight: bold;
@@ -2707,8 +2707,8 @@ div.ui-widget-overlay {
   border-radius: 0;
 }
 .ui-menu .ui-state-focus, .ui-menu .ui-state-active {
-  background: #0289da !important;
-  border: 1px solid #0289da !important;
+  background: #03a9f4 !important;
+  border: 1px solid #03a9f4 !important;
 }
 .ui-menu .ui-state-focus a, .ui-menu .ui-state-active a {
   color: #ffffff !important;

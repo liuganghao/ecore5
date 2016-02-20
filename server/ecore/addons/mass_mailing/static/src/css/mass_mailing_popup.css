@@ -80,7 +80,7 @@
 }
 #o_newsletter_popup .btn.btn-success {
   color: #ffffff;
-  background-color: #0289da;
+  background-color: #03a9f4;
   border-color: #1da187;
 }
 #o_newsletter_popup .btn.btn-success:hover,
@@ -116,7 +116,7 @@ fieldset[disabled] #o_newsletter_popup .btn.btn-success:active,
 #o_newsletter_popup .btn.btn-success.disabled.active,
 #o_newsletter_popup .btn.btn-success[disabled].active,
 fieldset[disabled] #o_newsletter_popup .btn.btn-success.active {
-  background-color: #0289da;
+  background-color: #03a9f4;
   border-color: #1da187;
 }
 #o_newsletter_popup h1,
@@ -226,7 +226,7 @@ fieldset[disabled] #o_newsletter_popup .btn.btn-success.active {
 }
 #o_newsletter_popup .o_popup_modal_content .o_popup_modal_body .o_popup_content_dev .o_popup_message font {
   font-weight: 600;
-  color: #0289da;
+  color: #03a9f4;
   font-size: 2.5em;
   font-style: italic;
   position: absolute;
@@ -234,7 +234,7 @@ fieldset[disabled] #o_newsletter_popup .btn.btn-success.active {
   margin-left: -0.65em;
 }
 #o_newsletter_popup .o_popup_modal_content .o_popup_modal_body .o_popup_content_dev .o_popup_message strong {
-  color: #0289da;
+  color: #03a9f4;
 }
 #o_newsletter_popup .o_popup_modal_content .o_popup_modal_body .o_popup_content_dev .o_message_paragraph {
   position: relative;
