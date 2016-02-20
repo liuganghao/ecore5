@@ -2102,7 +2102,7 @@ msgstr ""
 #: code:addons/mail/static/src/xml/thread.xml:28
 #, python-format
 msgid "No starred message"
-msgstr ""
+msgstr "No tienes mensajes destacados"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_no_auto_thread
@@ -3335,7 +3335,7 @@ msgstr "Usted añadió a <b>%s</b> a la conversación."
 #, python-format
 msgid ""
 "You can mark any message as 'starred', and it shows up in this channel."
-msgstr ""
+msgstr "Usted puede marcar cualquier mensaje como "Destacado", y se muestra en este canal."
 
 #. module: mail
 #: code:addons/mail/models/res_users.py:47
