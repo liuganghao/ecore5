@@ -143,7 +143,7 @@ msgstr "Nombre"
 #: code:addons/web_planner/static/src/xml/web_planner.xml:85
 #, python-format
 msgid "Next step"
-msgstr ""
+msgstr "Siguiente"
 
 #. module: web_planner
 #. ecore-web

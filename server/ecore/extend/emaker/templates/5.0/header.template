@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 ##############################################################################
 #
-#    eCore, Open Source Management Solution
+#    eCore, Run your business
 #    This module copyright (C) {{ export_year }} {% if author %}{{ author }}{% endif %}
 #    {% if website %}({{ website }}).{% endif %}
 #

@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 ##############################################################################
 #
-# eCore, Open Source Management Solution
+# eCore, Run your business
 # Copyright (C) eCore Colombia (Community).
 # Authors       Hector Ivan Valencia (TIX)
 #               David Arnold (devCO)

@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*- #
-# eCore, Open Source Management Solution
+# eCore, Run your business
 #    This module copyright (C) 2013 Savoir-faire Linux
 #    (<http://www.savoirfairelinux.com>).
 #
