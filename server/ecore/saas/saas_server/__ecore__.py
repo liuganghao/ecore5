@@ -2,7 +2,6 @@
     'name': 'SaaS Server',
     'version': '1.0.0',
     'author': 'Avalos Corp',
-    'license': 'Todos los derechos reservados',
     'category': 'SaaS',
     'website': 'https://it-projects.info',
     'depends': ['auth_oauth', 'saas_base', 'saas_utils', 'website'],

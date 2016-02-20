@@ -2,7 +2,6 @@
     'name': 'SaaS Portal Sign Up',
     'version': '1.0.0',
     'author': 'Avalos Corp',
-    'license': 'Todos los derechos reservados',
     'category': 'SaaS',
     'website': 'https://it-projects.info',
     'depends': ['auth_signup', 'saas_portal'],

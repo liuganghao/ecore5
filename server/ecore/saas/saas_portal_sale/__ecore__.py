@@ -2,7 +2,6 @@
 {
     'name': "Saas Portal Sale",
     'author': "Avalos Corp",
-    'license': 'Todos los derechos reservados',
     'website': "www.ecore.cloud",
     'category': 'SaaS',
     'version': '1.0.0',
