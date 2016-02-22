@@ -67,7 +67,7 @@
                             <field name="expired"/>
                         </group>
                     </group>
-                    <group string="Settings">
+                    <group name="settings" string="Settings">
                         <field name="block_on_expiration" class="oe_inline"/>
                         <field name="block_on_storage_exceed" class="oe_inline"/>
                     </group>
